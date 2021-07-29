@@ -7,18 +7,6 @@
     <meta name="description" content="Course HTML And CSS">  
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-    <!-- CSS Files -->
-    <!-- <link rel="stylesheet" href="./CSS/all.min.css">
-    <link rel="stylesheet" href="./css/blog.css">
-    <link rel="stylesheet" href="./css/contact.css">
-    <link rel="stylesheet" href="./css/footer.css">
-    <link rel="stylesheet" href="./css/numbers.css">
-    <link rel="stylesheet" href="./css/offer.css">
-    <link rel="stylesheet" href="./css/portfolio.css">
-    <link rel="stylesheet" href="./css/pricing.css">
-    <link rel="stylesheet" href="./css/service.css">
-    <link rel="stylesheet" href="./css/team.css">
-    <link rel="stylesheet" href="./css/testimonial.css"> -->
     <link rel="stylesheet" href="./CSS/style.css">
     <title>HTML & CSS Template</title>
 </head>
@@ -26,26 +14,26 @@
     <div class="Header">
         <div class="Container">
             <div class="Header-content">
-                <div class="logo"><a href="./index.html"> <img src="images/logo-alt.webp" alt="logo" draggable="false"></a></div>
+                <div class="logo"><a href="./index.html"> <img src="./images/logo-alt.webp" alt="logo" draggable="false"></a></div>
                 <div class="burger-img">
-                    <img src="images/Icons/burger1.png" onclick="showAll()" alt="">
+                    <img src="./images/Icons/burger1.png" onclick="showAll()" alt="">
                 </div>
                 <div class="menu">
                     <ul class="nav">
                         <i class="fas fa-times" onclick="closeAll()"></i>
-                        <li><a href="#home" class="active">home</a></li>
-                        <li><a href="#">aboute</a></li>
-                        <li><a href="#">protfolio</a></li>
-                        <li><a href="#">service</a></li>
-                        <li><a href="#">prices</a></li>
-                        <li><a href="#">team</a></li>
+                        <li><a href="./index.html" class="active">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#portfolio">protfolio</a></li>
+                        <li><a href="#service">service</a></li>
+                        <li><a href="#price">prices</a></li>
+                        <li><a href="#team">team</a></li>
                         <li class="drobdown">
                             <a href="#">blog <i class="fas fa-chevron-down"></i></a>
                             <ul class="drobdown-menu">
                                 <li><a href="blogPost.html">blog post</a></li>
                             </ul>
                         </li>
-                        <li><a href="#">contact</a></li>
+                        <li><a href="#contact">contact</a></li>
                            
                     </ul>
                 </div>
@@ -68,7 +56,7 @@
         </div>
     </div>
 
-    <div class="about-section pd-y">
+    <div class="about-section pd-y" id="about">
         <div class="section-header">
             <h2 class="section-header-title">welcome to website</h2>
             <span class="line"></span>
@@ -100,7 +88,7 @@
         </div>
     </div>
 
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
         <div class="section-header pd-y">
             <h2 class="section-header-title">futured worked</h2>
             <span class="line"></span>
@@ -108,7 +96,7 @@
         <div class="Container">
             <div class="portfolio-content">
                 <div class="portfolio-item">
-                   <img src="Images/work/work1.webp" alt="">
+                   <img src="./images/work/work1.webp" alt="">
                    <div class="layer-content">
                        <div class="layer-info">
                         <span class="layer-content-title">category</span>
@@ -119,7 +107,7 @@
                    </div>
                 </div>
                 <div class="portfolio-item mg">
-                    <img src="Images/work/work2.webp" alt="">
+                    <img src="./images/work/work2.webp" alt="">
                     <div class="layer-content">
                         <div class="layer-info">
                          <span class="layer-content-title">category</span>
@@ -131,7 +119,7 @@
                     
                  </div>
                  <div class="portfolio-item">
-                    <img src="Images/work/work3.webp" alt="">
+                    <img src="./images/work/work3.webp" alt="">
                     <div class="layer-content">
                         <div class="layer-info">
                          <span class="layer-content-title">category</span>
@@ -142,7 +130,7 @@
                     </div>
                  </div>
                  <div class="portfolio-item">
-                    <img src="Images/work/work4.webp" alt="">
+                    <img src="./images/work/work4.webp" alt="">
                     <div class="layer-content">
                         <div class="layer-info">
                          <span class="layer-content-title">category</span>
@@ -153,7 +141,7 @@
                     </div>
                  </div>
                  <div class="portfolio-item mg">
-                    <img src="Images/work/work5.webp" alt="">
+                    <img src="./images/work/work5.webp" alt="">
                     <div class="layer-content">
                         <div class="layer-info">
                          <span class="layer-content-title">category</span>
@@ -164,7 +152,7 @@
                     </div>
                  </div>
                  <div class="portfolio-item">
-                    <img src="Images/work/work6.webp" alt="">
+                    <img src="./images/work/work6.webp" alt="">
                     <div class="layer-content">
                         <div class="layer-info">
                          <span class="layer-content-title">category</span>
@@ -178,7 +166,7 @@
             </div>
         </div>
     </div>
-    <div class="offer">
+    <div class="offer" id="service">
         <div class="section-header pd-y">
             <h2 class="section-header-title">what we offer</h2>
             <span class="line"></span>
@@ -238,7 +226,7 @@
             </div>
             <div class=service-item>
                 <div class="service-item-img">
-                    <img src="Images/about/about1.webp" alt="">
+                    <img src="./images/about/about1.webp" alt="">
                 <ul class="service-item-bollits">
                     <li class="active"></li>
                     <li></li>
@@ -279,7 +267,7 @@
         </div>
     </div>
 
-    <div class="pricing pd-y">
+    <div class="pricing pd-y" id="price">
         <div class="section-header">
             <h2 class="section-header-title">pricing table</h2>
             <span class="line"></span>
@@ -343,7 +331,7 @@
                 <div class="tesimonial-content">
                     <div class="tesimonial-content-item">
                         <div class="tesimonial-content-item-layer">
-                        <img src="Images/team/team2.webp" alt="">
+                        <img src="./images/team/team2.webp" alt="">
                         <h2 class="tesimonial-content-item-name">john deo</h2>
                         <span class="tesimonial-content-item-jop">web desingner</span>
                         </div>
@@ -354,7 +342,7 @@
 
                     <div class="tesimonial-content-item">
                         <div class="tesimonial-content-item-layer">
-                        <img src="Images/team/team1.webp" alt="">
+                        <img src="./images/team/team1.webp" alt="">
                         <h2 class="tesimonial-content-item-name">john deo</h2>
                         <span class="tesimonial-content-item-jop">web desingner</span>
                         </div>
@@ -366,7 +354,7 @@
         </div>
     </div>    
 
-        <div class="team pd-y">
+        <div class="team pd-y" id="team">
             <div class="section-header pd-y-2">
                 <h2 class="section-header-title">our team</h2>
                 <span class="line"></span>
@@ -375,7 +363,7 @@
                 <div class="team-content">
                     <div class="team-item tb-effect">
                         <div class="team-img">
-                            <img src="Images/team/team1.webp" alt="">
+                            <img src="./images/team/team1.webp" alt="">
                             <div class="team-item-overlay">
                                 <a href="#"><i class="fab fa-instagram icon fa-2x"></i></a>
                                 <a href="#"><i class="fab fa-twitter icon fa-2x"></i></a>
@@ -389,7 +377,7 @@
                     </div>
                     <div class="team-item mg tb-effect">
                         <div class="team-img">
-                            <img src="Images/team/team2.webp" alt="">
+                            <img src="./images/team/team2.webp" alt="">
                             <div class="team-item-overlay">
                                 <a href="#"><i class="fab fa-instagram icon fa-2x"></i></a>
                                 <a href="#"><i class="fab fa-twitter icon fa-2x"></i></a>
@@ -403,7 +391,7 @@
                     </div>
                     <div class="team-item tb-effect">
                         <div class="team-img">
-                            <img src="Images/team/team3.webp" alt="">
+                            <img src="./images/team/team3.webp" alt="">
                             <div class="team-item-overlay">
                                 <a href="#"><i class="fab fa-instagram icon fa-2x"></i></a>
                                 <a href="#"><i class="fab fa-twitter icon fa-2x"></i></a>
@@ -428,7 +416,7 @@
                 <div class="blog-content">
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="Images/blog/blog1.webp" alt="">
+                            <img src="./images/blog/blog1.webp" alt="">
                         </div>
                         <div class="blog-item-content">
                             <ul class="blog-item-icon">
@@ -455,7 +443,7 @@
                     </div>
                     <div class="blog-item mg">
                         <div class="blog-img">
-                            <img src="Images/blog/blog2.webp" alt="">
+                            <img src="./images/blog/blog2.webp" alt="">
                         </div>
                         <div class="blog-item-content">
                             <ul class="blog-item-icon">
@@ -482,7 +470,7 @@
                     </div>
                     <div class="blog-item">
                         <div class="blog-img">
-                            <img src="Images/blog/blog3.webp" alt="">
+                            <img src="./images/blog/blog3.webp" alt="">
                         </div>
                         <div class="blog-item-content">
                             <ul class="blog-item-icon">
@@ -511,7 +499,7 @@
             </div>    
         </div>
 
-        <div class="contact pd-y">
+        <div class="contact pd-y" id="contact">
             <div class="section-header pd-y-2">
                 <h2 class="section-header-title">get in touch</h2>
                 <span class="line"></span>
@@ -549,7 +537,7 @@
 
         <div class="footer">
             <div class="footer-img">
-                <img src="Images/logo-alt.webp" alt="">
+                <img src="./images/logo-alt.webp" alt="">
             </div>
             <ul class="footer-content">
                 <li><a href="#"><i class="fab fa-facebook"></i></a></li>

@@ -292,8 +292,10 @@ body{
     color: #6195FF;
     text-transform: capitalize;
 }
-
-@media (max-width:767px) {
+.fa-times {
+    display: none;
+}
+@media screen and (max-width:767px) {
     .burger-img{
         display: block;
     }
@@ -310,6 +312,7 @@ body{
         margin: 50px 0;
     }
     .fa-times{
+        display: block;
         font-size: 30px;
         color: white;
         cursor: pointer;
